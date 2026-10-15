@@ -1,0 +1,92 @@
+{
+  "count": 2,
+  "level": 3,
+  "companies": [
+    {
+      "name": "Acme Cloud",
+      "website": "http://127.0.0.1:38695/",
+      "emails": [
+        "hello@acmecloud.eu",
+        "sales@acmecloud.eu"
+      ],
+      "phones": [
+        "+49 30 1234 5678"
+      ],
+      "social_profiles": {
+        "linkedin": "https://www.linkedin.com/company/acme-cloud",
+        "twitter": "https://twitter.com/acmecloud"
+      },
+      "address": "Torstrasse 12, Berlin, 10119, DE",
+      "tagline": "Cloud infrastructure you control",
+      "description": "Acme Cloud is a leading European cloud computing provider offering sovereign IaaS and managed Kubernetes.",
+      "founded": "2016",
+      "industry": "Cloud Computing",
+      "products_services": [
+        "Compute Instances",
+        "Managed Kubernetes",
+        "Object Storage"
+      ],
+      "tech_stack": [
+        "React",
+        "Google Analytics",
+        "AWS",
+        "Kubernetes",
+        "OpenStack",
+        "PostgreSQL"
+      ],
+      "current_projects": [
+        "currently building a sovereign object-storage service for regulated industries",
+        "Launching GPU instances in Frankfurt",
+        "Piloting carbon-aware scheduling"
+      ],
+      "competitors": [
+        "Hetzner Cloud",
+        "DigitalOcean"
+      ],
+      "market_positioning": "Market leader: \"...cts Blog Brochure Partner Cloud infrastructure you control We are the market leader in sovereign cloud computing for European startups. Our cloud platform runs on OpenStack...\"",
+      "pages_scraped": [
+        "http://127.0.0.1:38695/",
+        "http://127.0.0.1:38695/contact",
+        "http://127.0.0.1:38695/about",
+        "http://127.0.0.1:38695/products",
+        "http://127.0.0.1:38695/blog/roadmap"
+      ],
+      "warnings": []
+    },
+    {
+      "name": "Bare Co",
+      "website": "http://127.0.0.1:42945/",
+      "emails": [
+        "info@bare.test"
+      ],
+      "phones": [],
+      "social_profiles": {},
+      "address": "",
+      "tagline": "",
+      "description": "",
+      "founded": "",
+      "industry": "",
+      "products_services": [],
+      "tech_stack": [],
+      "current_projects": [],
+      "competitors": [],
+      "market_positioning": "",
+      "pages_scraped": [
+        "http://127.0.0.1:42945/"
+      ],
+      "warnings": [
+        "No phone found"
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "input": "not a url",
+      "error": "Not a valid URL: 'not a url'"
+    },
+    {
+      "input": "http://127.0.0.1:9/",
+      "error": "Failed after 3 attempts: http://127.0.0.1:9/ (ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=9): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [Errno 111] Connection refused\")))"
+    }
+  ]
+}
