@@ -1,5 +1,6 @@
 # Company Scraper
 
+
 A command-line tool that, given a **search query** or **seed URLs**, discovers companies and extracts
 structured information (contacts, tech stack, projects, competitors, …) into JSON and CSV.
 
